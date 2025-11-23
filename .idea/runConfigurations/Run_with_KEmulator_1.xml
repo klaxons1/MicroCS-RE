@@ -1,0 +1,13 @@
+<component name="ProjectRunConfigurationManager">
+  <configuration default="false" name="Run &quot;CSSource&quot; with KEmulator" type="Application" factoryName="Application">
+    <option name="ALTERNATIVE_JRE_PATH" value="1.8 CLDC Runtime" />
+    <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true" />
+    <option name="MAIN_CLASS_NAME" value="emulator.Emulator" />
+    <module name="MicroCS" />
+    <option name="PROGRAM_PARAMETERS" value="-cp $PROJECT_DIR$/bin/production/MicroCS -midlet com.m3gworks.microcs.MicroCsMIDlet -jad $PROJECT_DIR$/META-INF/MANIFEST.MF -uei" />
+    <option name="VM_PARAMETERS" value="-XX:+IgnoreUnrecognizedVMOptions -Djna.nosys=true -Dfile.encoding=UTF-8 -XstartOnFirstThread" />    <option name="WORKING_DIRECTORY" value="V:\jbed\kemnnx64\kemnnx64" />
+    <method v="2">
+      <option name="Make" enabled="true" />
+    </method>
+  </configuration>
+</component>
